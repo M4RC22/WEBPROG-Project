@@ -1,0 +1,36 @@
+footer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ background-color: #313131;
+ font-family: "Ubuntu", sans-serif;
+ padding: 20px;
+ color: white;
+}
+.content {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ box-sizing: border-box;
+ padding: 30px 30px 10px 30px;
+}
+.footer-logo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #b9191c;
+ margin-right: 20px;
+}
+.footer-logo img {
+ width: 30px;
+ height: 30px;
+ margin-right: 10px;
+}
+.footer-contacs p {
+ margin: 0px !important;
+ color: #c4c4c4;
+}
+.reserved {
+ text-align: center;
+}
