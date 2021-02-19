@@ -1,0 +1,33 @@
+.top-contact {
+	background-image: url("../images/bg.png");
+	background-size: contain;
+	background-attachment: fixed;
+	height: 300px;
+}
+.top-contact-text {
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
+.top-contact-text h1 {
+	margin-bottom: 30px;
+}
+.top-contact-text hr {
+	width: 150px;
+	margin: auto;
+	background-color: white;
+	margin-bottom: 30px;
+}
+.contact-us-container {
+	background-color: #f1f1f1;
+	margin-bottom: 100px;
+}
+.forms {
+	margin: 100px auto 300px auto;
+	padding: 20px;
+}
+@media only screen and (min-width: 980px) {
+ 	.forms {
+		width: 60%;
+ 	}
+}
