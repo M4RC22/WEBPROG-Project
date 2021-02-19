@@ -59,3 +59,25 @@ consectetur adipiscing elit, sed do e iusmod tempor incididunt ut labore et dolo
  </div> // div class="about-us" end
  </div> // div class="about-us-container" end
  </section> //End of First Section
+
+//Start of second section
+<section>
+ <div class="mission-vision">
+ 	<div class="mission"> //Mission div
+ 		<img src="<?php echo base_url('assets/images/rocket.jpg'); ?>"alt =""/>
+ 
+	 	<h1>Our Mission</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	 </div>
+	 
+ 	<div class="vision"> //Vision div
+ 		<img src="<?php echo base_url('assets/images/glass.jpg'); ?>"alt =""/>
+ 		
+		<h1>Our Vission</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 		</div>
+	 
+ </div> //End of Mission Vision div
+</section>
+
+
