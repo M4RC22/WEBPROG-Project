@@ -12,7 +12,7 @@ Members:
 * Binotapa, Louise Gerard MI-192
 * Delos Reyes, Franz Aeron EMC-191
 * Cagoco, Richelle EMC-191
-* Manadero, Michelle MI192-
+* Manadero, Michelle MI-192
 * Ricahuerta Marc Kenneth MI-192
 * Signo, Paul John MI-192
 
