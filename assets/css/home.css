@@ -1,0 +1,394 @@
+
+.container-home {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #b9191c;
+}
+.home {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px 20px 0px 20px;
+}
+.left-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.left-col h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 1px;
+	color: white;
+}
+.left-col p {
+	color: white;
+	padding: 20px 0px;
+}
+.right-col {
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 100%;
+}
+.carousel-indicators {
+	cursor: pointer;
+	margin-top: 20px;
+	height: 20px;
+	align-items: center;
+}
+.carousel-indicators li {
+	width: 10px !important;
+	height: 10px !important;
+	margin: 10px !important;
+
+	border-radius: 100%;
+}
+.wave svg {
+	display: block;
+	background-color: #b9191c;
+}
+.text-gallery {
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #b9191c;
+}
+.info-container-text {
+	text-align: center;
+}
+.info-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+	flex-wrap: wrap;
+}
+.info-container img {
+	height: 300px;
+}
+.info-img {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.info-text {
+	display: block;
+	flex-basis: 100%;
+	text-align: justify;
+}
+.more-info-title {
+	box-sizing: border-box;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 60px;
+	letter-spacing: 2px;
+	color: #b9191c;
+}
+.more-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px auto 100px auto;
+	flex-wrap: wrap;
+	width: 80%;
+}
+.more-info p {
+	font-size: 16px;
+	margin: 10px 10px 0px 10px;
+	padding: 20px;
+	text-align: justify;
+}
+.more-info h1 {
+	font-size: 100px;
+	font-family: "Ubuntu", sans-serif;
+	color: #b9191c;
+}
+.col1 {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+}
+.col2 {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+}
+.col3 {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #b9191c;
+	color: white;
+	font-family: "Ubuntu", sans-serif;
+	box-sizing: border-box;
+	padding: 60px;
+}
+.banner-heading {
+	text-align: center;
+	letter-spacing: 1px;
+}
+.banner p {
+	letter-spacing: 2px;
+}
+.line {
+	box-sizing: border-box;
+	padding-top: 15px;
+	margin-top: 15px;
+	width: 500px;
+	border-top: solid 1px;
+	display: inline-block;
+	text-align: center;
+}
+.info-banner {
+	display: flex;
+	justify-content: center;
+	margin: 100px auto;
+	flex-wrap: wrap;
+	padding: 40px;
+}
+.info-banner img {
+	height: 150px;
+}
+.info-banner p {
+	padding: 10px;
+}
+.info-banner h1 {
+	font-family: "Ubuntu", sans-serif;
+	padding: 10px;
+}
+.info-row1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.row1-left {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.row1-right {
+	display: block;
+	flex-basis: 100%;
+}
+.info-row2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.row2-left {
+	display: block;
+	flex-basis: 100%;
+}
+.row2-right {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.info-row3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.row3-left {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.row3-right {
+	display: block;
+	flex-basis: 100%;
+}
+.hiring-ads-container {
+	display: flex;
+	justify-content: center;
+	background-color: #b9191c;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.hiring-ads {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: 60px auto;
+}
+.ads-text {
+	display: block;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.ads-img {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+.ads-text h1 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: white;
+}
+.ads-text h6 {
+	border-top: solid 0.5px;
+	border-color: white;
+	color: white;
+	font-size: 30px;
+	padding: 20px 0px;
+}
+.ads-text a {
+	border: solid 1px;
+	border-color: white;
+	color: white !important;
+	padding: 10px;
+	align-self: center;
+}
+.ads-text a:hover {
+	border: solid 1px;
+	border-color: yellow;
+	color: yellow;
+	transition: 3s;
+	background-color: teal;
+	text-decoration: none;
+}
+.curved {
+	background-color: #b9191c;
+	text-align: center;
+}
+.curved svg {
+	display: block;
+}
+.accordion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+.accordion label {
+	margin-top: 10px !important;
+}
+#accordion {
+	margin: 10px auto 100px auto;
+	padding: 20px;
+	flex-basis: 100%;
+}
+.collapse {
+	background-color: #c1c1c1;
+}
+
+.hiring-toggle {
+	cursor: pointer;
+}
+@media only screen and (min-width: 640px) {
+	.left-col {
+		flex-basis: 50%;
+	}
+	.right-col {
+		flex-basis: 50%;
+	}
+	.info-img {
+		flex-basis: 40%;
+	}
+	.info-text {
+		flex-basis: 40%;
+	}
+	.ads-img {
+		margin-left: 20px;
+		flex-basis: auto;
+	}
+	.ads-text {
+		flex-basis: 50%;
+	}
+	.row1-left {
+		flex-basis: 50%;
+	}
+	.row1-right {
+		flex-basis: 50%;
+	}
+	.row2-left {
+		flex-basis: 50%;
+	}
+	.row2-right {
+		flex-basis: 50%;
+	}
+	.row3-left {
+		flex-basis: 50%;
+	}
+	.row3-right {
+		flex-basis: 50%;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.home {
+		width: 80%;
+	}
+	.info-container {
+		width: 80%;
+	}
+	.col1 {
+		flex-basis: 33.3%;
+	}
+	.col2 {
+		flex-basis: 33.3%;
+	}
+	.col3 {
+		flex-basis: 33.3%;
+	}
+	.info-banner {
+		width: 80%;
+	}
+	.accordion {
+		width: 60%;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.more-info {
+		width: 80%;
+		margin: 100px auto 200px auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.info-row2 {
+		flex-direction: column-reverse;
+	}
+	.info-banner {
+		margin: 50px auto;
+	}
+	.row1-right {
+		padding-top: 30px;
+	}
+	.row2-left {
+		padding-top: 30px;
+	}
+	.row3-right {
+		padding-top: 30px;
+	}
+}
