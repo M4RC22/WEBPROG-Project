@@ -10,7 +10,7 @@ Team Name: **Brewing Minds**
 
 Members:
 * Binotapa, Louise Gerard MI-192
-* Delos reyes, Franz Aeron EMC-191
+* Delos Reyes, Franz Aeron EMC-191
 * Cagoco, Richelle EMC-191
 * Manadero, Michelle MI192-
 * Ricahuerta Marc Kenneth MI-192
