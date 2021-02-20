@@ -26,3 +26,39 @@
   margin-bottom: 100px; 
   }
   
+.about-us { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin: 0px auto; 
+	flex-wrap: wrap; 
+	padding: 50px; 
+	} 
+
+.about-us-left { 
+	margin: 20px auto; 
+	display: block; 
+	flex-basis: 100%;
+	}
+
+.about-us-right { 
+	display: flex; 
+	justify-content: flex-start; 
+	flex-basis: 100%; 
+	margin: 20px auto; 
+	background-size: cover; 
+	} 
+
+.about-us-right img { 
+	height: 300px; 
+	}
+
+.mission-vision { 
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	flex-wrap: wrap; 
+	margin: 50px auto 100px auto; 
+	text-align: center; 
+	padding: 50px; 
+	}
