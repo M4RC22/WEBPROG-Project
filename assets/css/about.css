@@ -62,3 +62,36 @@
 	text-align: center; 
 	padding: 50px; 
 	}
+
+.mission-vision h1 { 
+	margin: 20px auto; 
+	} 
+
+.mission-vision img { 
+	margin: 20px auto; 
+	} 
+
+.mission { 
+	display: block; 
+	flex-basis: 100%; 
+	} 
+
+.vision { 
+	display: block; 
+	flex-basis: 100%; 
+	}
+
+.mission-vision img { 
+	height: 100px; 
+	width: 110px; 
+	border-radius: 100%; 
+	} 
+@media only screen and (min-width: 640px) { }
+@media only screen and (min-width: 980px) { 
+	.about-us { width: 80%; } 
+	.about-us-left { flex-basis: 50%; } 
+	.about-us-right { flex-basis: 50%; } 
+	.mission-vision { width: 80%; } 
+	.mission { flex-basis: 50%; } 
+	.vision { flex-basis: 50%; } 
+}
