@@ -1,24 +1,20 @@
-# Client: Alcofil <h1>
+# Client: Alcofil
 
-# Subject: WEBPROG <h2>
+ Subject: WEBPROG 
 
 SY: 2020-2021
 
 Term: Second Term
 
-Team Name: Brewing Minds
+Team Name: **Brewing Minds**
 
 Members:
-*Binotapa, Louise Gerard MI-192
-*Delos reyes, Franz Aeron EMC-191
-Cagoco, Richelle EMC-191
-Manadero, Michelle MI192-
-Ricahuerta Marc Kenneth MI-192
-Signo, Paul John MI-192
+* Binotapa, Louise Gerard MI-192
+* Delos reyes, Franz Aeron EMC-191
+* Cagoco, Richelle EMC-191
+* Manadero, Michelle MI192-
+* Ricahuerta Marc Kenneth MI-192
+* Signo, Paul John MI-192
 
 Description:
 <!-- add text here -->
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
