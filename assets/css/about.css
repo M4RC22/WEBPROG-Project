@@ -1,0 +1,28 @@
+.top-about { 
+    background-image: url("../images/bg.png");
+    background-size: contain; 
+    background-attachment: fixed;
+    height: 300px; 
+    }
+  
+.top-about-text { 
+    text-align: center; 
+    padding-top: 80px; 
+    color: white; 
+    } 
+    
+.top-about-text h1 { 
+    margin-bottom: 30px; 
+    }
+    
+.top-about-text hr { 
+    width: 200px; margin: auto; 
+    background-color: white;
+    margin-bottom: 30px; 
+    } 
+    
+.about-us-container { 
+  background-color: #f1f1f1; 
+  margin-bottom: 100px; 
+  }
+  
