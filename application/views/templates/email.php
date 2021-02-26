@@ -30,3 +30,30 @@
                                         <img width="100" border="0" style="display: block; width: 100px;" src="<?php echo base_url();?>assets/images/logo.png" alt="logo"/></a>
                                     </td>
                                 </tr>
+				    
+				     <tr>
+                                    <td align="center">
+                                        <table width="360 " border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"
+                                            class="container590 hide">
+                                            <tr>
+                                                <td>
+                                                    <h1 align="center" style="color: #b9191c"; letter-spacing: 2px;>ALCOFIL</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- end header -->
+
