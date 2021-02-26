@@ -1,15 +1,12 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box; 
-}
-body {
-	background-color: red;
+	box-sizing: border-box;
 }
 nav {
 	display: flex;
 	justify-content: center;
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto";
 	background-color: #b9191c;
 	position: sticky;
 	top: 0;
@@ -86,6 +83,7 @@ nav {
 	background-color: white;
 	transition: all 0.3s ease;
 }
+
 @media only screen and (max-width: 980px) {
 	body {
 		overflow-x: hidden;
@@ -123,6 +121,7 @@ nav {
 	transform: translateX(0%);
 	transition: transform 0.5s ease-in;
 }
+
 @keyframes navLinkFade {
 	from {
 		opacity: 0;
@@ -133,12 +132,15 @@ nav {
 		transform: translateX(0px);
 	}
 }
+
 .toggle .line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
+
 .toggle .line2 {
 	opacity: 0;
 }
+
 .toggle .line3 {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
