@@ -1,17 +1,19 @@
 //Contact page CSS
 .top-contact {
-	background-image: url("../images/bg.png");
-	background-size: contain;
-	background-attachment: fixed;
-	height: 300px;
+	background-color: #b9191c;
 }
 .top-contact-text {
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 30px;
+	font-size: 19px;
+	font-family: "Montserrat";
 	color: white;
+	padding-bottom: 90px;
 }
 .top-contact-text h1 {
 	margin-bottom: 30px;
+	font-family: "Ubuntu";
+	letter-spacing: 2px;
 }
 .top-contact-text hr {
 	width: 150px;
@@ -27,8 +29,11 @@
 	margin: 100px auto 300px auto;
 	padding: 20px;
 }
+label {
+	margin-top: 10px !important;
+}
 @media only screen and (min-width: 980px) {
- 	.forms {
+	.forms {
 		width: 60%;
- 	}
+	}
 }
