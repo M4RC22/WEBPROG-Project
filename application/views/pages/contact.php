@@ -1,4 +1,4 @@
-//contact.php
+<!--contact.php-->
 <section>
 
 	<div class="top-contact">
