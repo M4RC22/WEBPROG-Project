@@ -1,0 +1,129 @@
+.top-stations {
+	background-color: #b9191c;
+}
+.top-stations-text {
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+	padding-bottom: 90px;
+}
+.top-stations-text h1 {
+	margin-bottom: 30px;
+	font-family: "Ubuntu";
+	letter-spacing: 2px;
+}
+.top-stations p {
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	font-size: 19px;
+	font-family: "Montserrat";
+}
+.top-stations-text hr {
+	width: 200px;
+	margin: auto;
+	background-color: white;
+	margin-bottom: 30px;
+}
+#mapid {
+	box-sizing: border-box;
+	height: 400px;
+	width: 80%;
+	z-index: 1;
+}
+.map-container {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+.stations-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px auto 0px auto;
+	background-color: #f1f1f1;
+	padding: 40px 0px 40px 0px;
+}
+.stations-container h1 {
+	font-family: "Ubuntu";
+}
+.stations {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px;
+	font-size: 16px;
+	font-family: "Montserrat";
+}
+.stations h1 {
+	font-family: "Ubuntu";
+	font-size: 25px;
+}
+.stations a {
+	color: #b9191c;
+}
+.stations-text {
+	letter-spacing: 2px;
+	color: #b9191c;
+	font-size: 50px;
+}
+.stations a:hover {
+	color: teal;
+	text-decoration: none;
+}
+.stations-col1 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+.stations-col2 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+.stations-col3 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+.stations-col4 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+.stations-col5 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+.stations-col6 {
+	display: block;
+	flex-basis: 100%;
+	margin-top: 30px;
+}
+@media only screen and (min-width: 640px) {
+	.stations-col1 {
+		flex-basis: 30%;
+	}
+	.stations-col2 {
+		flex-basis: 30%;
+	}
+	.stations-col3 {
+		flex-basis: 30%;
+	}
+	.stations-col4 {
+		flex-basis: 30%;
+	}
+	.stations-col5 {
+		flex-basis: 30%;
+	}
+	.stations-col6 {
+		flex-basis: 30%;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.stations {
+		width: 80%;
+	}
+}
