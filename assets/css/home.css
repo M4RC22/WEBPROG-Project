@@ -1,4 +1,3 @@
-
 .container-home {
 	display: flex;
 	justify-content: center;
@@ -21,12 +20,14 @@
 .left-col h1 {
 	font-size: 36px;
 	margin-bottom: 20px;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	letter-spacing: 1px;
 	color: white;
 }
 .left-col p {
 	color: white;
+	font-size: 19px;
+	font-family: "Montserrat";
 	padding: 20px 0px;
 }
 .right-col {
@@ -58,7 +59,7 @@
 	margin-top: 60px;
 	margin-bottom: 50px;
 	text-align: center;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	font-size: 30px;
 	letter-spacing: 2px;
 	color: #b9191c;
@@ -84,14 +85,17 @@
 .info-text {
 	display: block;
 	flex-basis: 100%;
+	padding: 20px;
 	text-align: justify;
+	font-size: 19px;
+	font-family: "Montserrat";
 }
 .more-info-title {
 	box-sizing: border-box;
 	margin-top: 80px;
 	margin-bottom: 50px;
 	text-align: center;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: #b9191c;
@@ -108,11 +112,12 @@
 	font-size: 16px;
 	margin: 10px 10px 0px 10px;
 	padding: 20px;
-	text-align: justify;
+	font-size: 19px;
+	font-family: "Montserrat";
 }
 .more-info h1 {
 	font-size: 100px;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	color: #b9191c;
 }
 .col1 {
@@ -137,7 +142,7 @@
 	flex-direction: column;
 	background-color: #b9191c;
 	color: white;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	box-sizing: border-box;
 	padding: 60px;
 }
@@ -148,14 +153,18 @@
 .banner p {
 	letter-spacing: 2px;
 }
+.banner span {
+	margin-left: 31px;
+}
 .line {
 	box-sizing: border-box;
 	padding-top: 15px;
 	margin-top: 15px;
-	width: 500px;
 	border-top: solid 1px;
-	display: inline-block;
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 .info-banner {
 	display: flex;
@@ -171,7 +180,7 @@
 	padding: 10px;
 }
 .info-banner h1 {
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	padding: 10px;
 }
 .info-row1 {
@@ -180,6 +189,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 50px;
+	font-size: 19px;
+	font-family: "Montserrat";
 }
 .row1-left {
 	display: flex;
@@ -196,6 +207,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 50px;
+	font-size: 19px;
+	font-family: "Montserrat";
 }
 .row2-left {
 	display: block;
@@ -212,6 +225,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 50px;
+	font-size: 19px;
+	font-family: "Montserrat";
 }
 .row3-left {
 	display: flex;
@@ -250,7 +265,7 @@
 	flex-basis: 100%;
 }
 .ads-text h1 {
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 	font-size: 60px;
 	margin-bottom: 20px;
 	color: white;
@@ -259,7 +274,8 @@
 	border-top: solid 0.5px;
 	border-color: white;
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
+	font-family: "Montserrat";
 	padding: 20px 0px;
 }
 .ads-text a {
@@ -268,12 +284,13 @@
 	color: white !important;
 	padding: 10px;
 	align-self: center;
+	transition: 1s;
 }
 .ads-text a:hover {
 	border: solid 1px;
 	border-color: yellow;
 	color: yellow;
-	transition: 3s;
+	transition: 1s;
 	background-color: teal;
 	text-decoration: none;
 }
@@ -302,6 +319,13 @@
 }
 .collapse {
 	background-color: #c1c1c1;
+}
+.btn a {
+	color: white;
+}
+.btn a:hover {
+	text-decoration: none;
+	color: white;
 }
 
 .hiring-toggle {
@@ -346,7 +370,7 @@
 		flex-basis: 50%;
 	}
 }
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1250px) {
 	.home {
 		width: 80%;
 	}
@@ -368,8 +392,6 @@
 	.accordion {
 		width: 60%;
 	}
-}
-@media only screen and (min-width: 1100px) {
 	.more-info {
 		width: 80%;
 		margin: 100px auto 200px auto;
